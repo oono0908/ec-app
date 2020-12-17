@@ -1,0 +1,36 @@
+.marginTopMiddle{
+  height:20px;
+  width: 100%;
+}
+.wrapperCenter{
+  margin: 100px auto 0;
+  width: 1000px;
+}
+.EditCenter{
+  margin: 0 auto;
+  width: 500px;
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.file{
+  display:none;
+}
+.IconRight{
+  display: flex;
+  justify-content: space-between;
+}
+.imageSize{
+  width: 100%;
+  height:auto;
+}
+.imageList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imageInner{
+  width:33%;
+}
+

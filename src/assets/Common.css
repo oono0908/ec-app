@@ -1,0 +1,44 @@
+.sendBtn {
+  box-sizing: border-box;
+  padding: 10px 0;
+  width: 150px;
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px; }
+
+.HeaderSub {
+  height: 100px;
+  width: 100%;
+  max-width: 1100px;
+  border-bottom: 2px solid #EEEEEE;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; }
+
+.FooterSub {
+  width: 1100px;
+  background-color: #EEEEEE;
+  height: 70px;
+  margin: 30px auto 0; }
+
+.text {
+  line-height: 70px;
+  background-color: #F4F4F4;
+  text-align: center;
+  margin-top: 100px; }
+
+.signInFooter {
+  width: 1100px;
+  background-color: #EEEEEE;
+  height: 70px;
+  margin: 30px auto 0;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); }

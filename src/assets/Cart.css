@@ -1,0 +1,74 @@
+.cartGlobal {
+  margin-top: 100px;
+  width: 100%; }
+
+.cartTitle {
+  font-weight: bold;
+  font-size: 32px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+
+.cartWrapper {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box; }
+
+.cartLeft {
+  width: 60%;
+  border: 1px solid gray;
+  padding: 15px;
+  box-sizing: border-box; }
+
+.cartRight {
+  margin-left: 20px;
+  width: 40%;
+  border: 1px solid gray;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 300px; }
+
+.itemWapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+
+.iteminner {
+  width: 30%; }
+
+.image {
+  width: 100%; }
+
+.removeBtn {
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 1px solid black; }
+
+.name {
+  font-weight: bold;
+  font-size: 20px; }
+
+.marginTop {
+  margin-top: 10px;
+  font-size: 20px; }
+
+.itemPriceWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+
+.priceRight {
+  text-align: right; }
+
+.priceLeft {
+  font-weight: bold; }
+
+.itemMainPriceWapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black; }

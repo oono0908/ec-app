@@ -1,0 +1,107 @@
+.radioWrapper{
+  display: flex;
+  width:70%;
+  justify-content: space-between;
+}
+.radio{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  position:relative;
+}
+.cheked{
+  position:absolute;
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+  top:0;
+  left:0;
+}
+.chekedSize{
+  position:absolute;
+  width:40px;
+  height: 40px;
+  border: 2px solid black;
+  top:0;
+  left:0;
+}
+@mixin radioInner($bg: black){
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  background-color: $bg;
+}
+.red{
+  @include radioInner(red)
+}
+.green{
+  @include radioInner(green)
+}
+.black{
+  @include radioInner(black)
+}
+.yellow{
+  @include radioInner(yellow)
+}
+.white{
+  @include radioInner(cornsilk)
+}
+.sizeRadioInner{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:30px;
+  height:30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+.input{
+  display: none;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.black{
+  background-color: black;
+}
+.white{
+  background-color: cornsilk;
+}
+.yellow{
+  background-color: yellow;
+}
+.quantity{
+  display: flex;
+}
+.commonAdd{
+  width:60%;
+  height: auto;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 30px;
+  margin: 30px auto 0;
+  font-weight: bold;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+.addCart{
+  background-color: rgb(18, 40, 138);
+  box-shadow: rgba(18, 40, 139, 0.25) 0px 5px 15px 0px;
+  color: white;
+}
+.favorite{
+  border:1px solid black;
+}

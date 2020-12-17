@@ -1,0 +1,56 @@
+.inquireWapper{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1500;
+}
+.inquireInner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.inquireErement{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  box-sizing: content-box;
+  padding: 50px 50px;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border-radius: 10px;
+}
+.inquireTitle{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.modalClose{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1500;
+  opacity: 0;
+  z-index: -10;
+}
+.modalOpen{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1500;
+  opacity: 1;
+  z-index: 2000;
+}
+
+

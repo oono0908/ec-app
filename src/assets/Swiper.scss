@@ -1,0 +1,35 @@
+.swiper{
+  width:1100px;
+  margin: 0 auto;
+  height: 500px;
+}
+.swiper-container{
+  height: 100%;
+}
+.image01{
+  background-image: url("../image/homeImage01.jpg");
+  background-size: cover;
+  width:100%;
+  &:hover{
+    opacity: 0.8;
+  }
+  transition:0.5s;
+}
+.image02{
+  background-image: url("../image/homeImage02.jpg");
+  background-size: cover;
+  width:100%;
+  &:hover{
+    opacity: 0.8;
+  }
+  transition:0.5s;
+}
+.image03{
+  background-image: url("../image/homeImage03.jpg");
+  background-size: cover;
+  width:100%;
+  &:hover{
+    opacity: 0.8;
+  }
+  transition:0.5s;
+}

@@ -1,0 +1,75 @@
+.cardWrapper{
+  width: 1100px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.cardInner{
+  width:100%;
+  margin-left: 10px;
+}
+.cardInner > img{
+  width: 100%;
+}
+.devide > p:first-child{
+  margin-top: 5px;
+  font-size: 16px;
+}
+.devide > p:last-child{
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.devide{
+  text-align: center;
+}
+.menuBtn{
+  position: absolute;
+  top:1%;
+  left: 1%;
+  background-color: white;
+}
+.cardItem{
+  position: relative;
+  width:18%;
+  margin-right:2%;
+  margin-top: 20px;
+  &:nth-of-type(5n){
+    margin-right: 0;
+  }
+  &:hover{
+    opacity: 0.7;
+  }
+  transition:0.5s;
+}
+
+.HomeHeadList{
+  display: flex;
+  width:600px;
+  margin: 70px auto 0;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+}
+.HomeHeadItem{
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 7px;
+  border-bottom: 4px solid white;
+  cursor: pointer;
+  &:hover{
+    border-bottom: 4px solid blue;
+  }
+}
+
+.ListSection{
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+

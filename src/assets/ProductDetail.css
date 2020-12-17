@@ -1,0 +1,46 @@
+.detailWrapper {
+  width: 1000px;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between; }
+
+.detailleft {
+  width: 45%; }
+
+.detailRight {
+  width: 45%; }
+
+.SwipeImageWapper {
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+  .SwipeImageWapper img {
+    width: 100%; }
+
+.marginTop {
+  margin-top: 30px; }
+
+.fontBold {
+  font-weight: bold;
+  margin-right: 30px; }
+
+.MuiFormControl-root {
+  width: 100px; }
+
+.fontLarge {
+  font-weight: bold;
+  font-size: 20px; }
+
+.orderBtn {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer; }
+  .orderBtn:hover {
+    opacity: 0.7; }
+
+.removeBtn {
+  cursor: pointer; }

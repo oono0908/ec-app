@@ -1,0 +1,28 @@
+
+.head{
+  font-size: 50px;
+}
+.signUpWrapper{
+  width: 60%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 20px;
+  .head{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .inputTitle{
+    font-size: bold;
+
+  }
+  .headSub{
+    display: block;
+    font-weight: 200;
+    font-size: 15px;
+  }
+}
+.MuiFormLabel-root{
+  color:black;
+}
